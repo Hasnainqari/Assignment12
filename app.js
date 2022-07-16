@@ -1,7 +1,7 @@
 // Chapter No 35 to 38;
-function log(a) {
-    console.log(a);
-}
+// function log(a) {
+//     console.log(a);
+// }
 
 // Question No 01;
 // function date (){
@@ -46,112 +46,110 @@ function log(a) {
 // calculation();
 
 // Question No 05;
-// function squares (){
-//     var multiply = +prompt("Enter a number");
-//     var result = (multiply);
-//     log(result);
+// function squares(squareNum) {
+//     var squareNum = +prompt("Enter a number to find the sqaure of it  : ")
+//     var findSquare = squareNum * squareNum;
+//     console.log(" The Number of Squares " + squareNum  + " is : " + findSquare);
 // }
 // squares();
 
-// Question No 06;
-// function factorial (a,b,c){
-//     var result = (a*b*c);
-//     log(result);
-// }
-// factorial(5,3,2);
-
 // Question No 07;
-// function numbers (){
-//     var firstNum = (1);
-//     log(result);
+// function counting() {
+//     var startNumber = +prompt("Enter a start Number : ");
+//     var EndNumber = +prompt("Enter a End Number : ");
+
+
+//     for (i = startNumber; i <= EndNumber; i++) {
+
+//         console.log(i);
+//     }
 // }
-// numbers();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// class code;
-// function foo (a,b){
-//     if(a + b){
-//     log(a,b);
+// counting();
+
+// Question No 08;
+// function calculateHypotenouse(b,p){
+//     function square(b,p){
+//         var y = b*b;
+//         var z = p*p;
+//         return y+z;
+//     }
+//     var y = square(b,p);
+//     log(Math.round(Math.sqrt(y)));
 // }
+// calculateHypotenouse(6,9);
+
+// Question No 9;
+// function area(width, height) {
+
+//     var width = +prompt("Enter a width :");
+//     var height = +prompt("Enter a height :");
+
+//     A = width * height;
+
+//     document.write("(Argument as variable) Area of the Rectangle is " + A);
+
+//     document.write("<br>");
+
+//     var area = 45 * 54;
+//     document.write("(Argument as value) Area of the Rectangle is : " + area);
 // }
-// foo ("Hello","World");
-// function printTable(t){
-//     var table = +prompt("Enter No Of Table");
-//     for(var i = 1; i <= 10; i++){
-//     log(table + " x " + i + " = " + table*i );
-// };
+// area();
+
+
+// Question No 10;
+// function palindrome() {
+//     var text = '';
+//     var userInput = prompt("Enter a string");
+
+//     for (var i = userInput.length - 1; i >= 0; i--) {
+//         text += userInput[i];
+//     }
+
+//     if (text === userInput) {
+//         alert("It's Palindrome Word");
+//     }
+//     else {
+//         alert("It's Not Palindrome Word");
+//     }
 // }
-// printTable();
-// class code ;
+
+// Question No 11;
+// function uperCase() {
+//     var userInput = prompt("Enter a word");
+//     var userInput = userInput.split(' ');
+//     for (i = 0; i < userInput.length; i++) {
+//         userInput[i] = userInput[i].charAt(0).toUpperCase() + userInput[i].slice(1) + " ";
+//         console.log(userInput[i]);
+//     }
+// }
+// uperCase();
+
+// Question No 12;
+// function letterOccurence(strings, character) {
+//     var strings = prompt("Enter a string :").toLowerCase();
+//     var character = prompt("Enter a character: ");
+//     var count = 0;
+//     for (var i = 0; i < strings.length; i++) {
+//         if (strings.charAt(i) == character)
+//             count++;
+//     }
+//     console.log("There are " + count + " occurrence(s) of the word " + character);
+// }   
+// letterOccurence();
+
+// Question No 13;
+// function longestWord(str){
+//     var str = prompt("Enter your string : ");
+//     var splitArrayValue = str.split(' ');
+//     var storeWord = "";
+//     for (var i = 0; i < splitArrayValue.length; i++) {
+//         if (splitArrayValue[i].length > storeWord.length) {
+//             storeWord = splitArrayValue[i];
+//         }
+//     }
+//         // return storeWord;
+//         console.log("Actual String is : " + str + "<br>");
+//         console.log("Longest word in String is : " + storeWord);
+        
+// }
+// longestWord();
